@@ -2,6 +2,11 @@
 
 This is an open source Ruby wrapper for interacting with the [Badgeville RESTful Berlin API](http://rules.badgeville.com/display/doc/2.0+Core+API+Documentation).
 
+##TO BUILD AND USE THE GEM
+```
+gem build badgeville.gemspec
+gem install badgeville_berlin-0.1.1.gem
+```
 
 ## Features
 * Uses the activeresource (3.1.3) gem to map ActiveModel-like RESTful methods to resources on the remote Badgeville server.
